@@ -1,0 +1,6 @@
+{
+  "appId": "local.n64portatil",
+  "appName": "N64 Portátil",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}

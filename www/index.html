@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#121418">
+  <title>N64 Portátil</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="bar">
+    <h1>N64 Portátil</h1>
+    <div class="acts">
+      <button class="primary" id="add">Añadir ROM</button>
+      <a class="btn" href="settings.html">Ajustes</a>
+    </div>
+  </header>
+  <main id="list"></main>
+  <section id="empty">
+    <h2>Aún no hay juegos</h2>
+    <p>Añade tus respaldos de cartuchos de N64 (.z64, .n64, .v64). Se copian dentro de la app y después juegas sin conexión.</p>
+    <button class="primary" id="add2">Añadir ROM</button>
+  </section>
+  <input type="file" id="file" multiple hidden>
+  <div class="backdrop" id="bd"></div>
+  <div class="sheet" id="sheet"></div>
+  <div id="toast"></div>
+  <script src="lib.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

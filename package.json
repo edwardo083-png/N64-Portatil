@@ -1,0 +1,17 @@
+{
+  "name": "n64-portatil-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "N64 Portátil para Android: Capacitor + EmulatorJS (Mupen64Plus-Next), todo sin Internet",
+  "license": "GPL-3.0",
+  "scripts": {
+    "preparar": "node scripts/prepare.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/cli": "8.5.3",
+    "@capacitor/core": "8.5.3",
+    "@emulatorjs/core-mupen64plus_next": "4.2.3",
+    "@emulatorjs/emulatorjs": "4.2.3"
+  }
+}
